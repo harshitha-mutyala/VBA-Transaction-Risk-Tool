@@ -32,7 +32,7 @@ It applies automated rules, sampling logic, and dashboards to help auditors or a
 | `Risk Logic.bas` | Core VBA logic for risk scoring and sampling
 | `VBA Transaction Risk Tool.xlsm` | Main Excel file with GUI, dashboard, and outputs |
 
-## Tech Stack
+## Tools & Technologies
 - Microsoft Excel (VBA)
 - Dynamic named ranges, charts, and tables
 - Macro-enabled `.xlsm` workbook
