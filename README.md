@@ -14,8 +14,8 @@ It applies automated rules, sampling logic, and dashboards to help auditors or a
     - Unapproved vendors
 
 - **Sampling Techniques**:
-  - Monetary Unit Sampling — focuses on large-value items
-  - Random Sampling — ensures broader coverage
+  - Monetary Unit Sampling (focuses on large-value items)
+  - Random Sampling (ensures broader coverage)
 
 - **Structured Output & Dashboard**:
   - Sampled transactions shown with flag reasons
@@ -25,16 +25,12 @@ It applies automated rules, sampling logic, and dashboards to help auditors or a
 - **Audit Trail Logging**:
   - Tracks tool usage and timestamp for documentation
 
-## 📁 Project Files
+## Project Files
 
 | File | Description |
 |------|-------------|
-| `AuditLogic.bas` | Main audit and risk-checking logic |
-| `Sampling.bas`   | Random and monetary unit sampling methods |
-| `Dashboard.bas`  | Code to populate summary stats and generate charts |
-| `AuditTool.xlsm` | Full Excel workbook with GUI, inputs, and output |
-
-You can open `.bas` files directly in the VBA editor (Alt + F11 → File → Import).
+| `Risk Logic.bas` | Core VBA logic for risk scoring and sampling
+| `VBA Transaction Risk Tool.xlsm` | Main Excel file with GUI, dashboard, and outputs |
 
 ## Tech Stack
 - Microsoft Excel (VBA)
